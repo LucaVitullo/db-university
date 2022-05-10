@@ -30,5 +30,5 @@ SELECT COUNT(id)
  FROM `departments`;
 (8)
 SELECT COUNT(id)
- FROM `teachers
- ` WHERE `phone` IS NULL;
+ FROM `teachers`
+  WHERE `phone` <> 'NOT NULL';
